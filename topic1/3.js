@@ -10,4 +10,4 @@ if (rand1 === rand2) {
     console.log('>');
 } else {
     console.log('<');
-};
+}

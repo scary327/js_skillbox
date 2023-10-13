@@ -4,5 +4,5 @@ let n = 5;
 
 a = Math.trunc((a - Math.trunc(a)) * Math.pow(10, n));
 b = Math.trunc((b - Math.trunc(b)) * Math.pow(10, n));
-
+//
 console.log(a, b);
