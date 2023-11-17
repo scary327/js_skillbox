@@ -1,0 +1,62 @@
+body {
+    background: #494949;
+}
+
+.container__flex {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.restart__game{
+    font-weight: 700;
+    font-size: 32px;
+    color:aquamarine;
+    border-bottom: 1px solid aquamarine;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 80vh;
+    height: 80vh;
+    border: 1px solid #272727;
+    border-radius: 25px;
+}
+
+.game__board {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding-top: 7vh;
+    width: 18vh;
+    height: 11vh;
+    margin: 1vh;
+    background-color: #272727;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 32px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.invisible > span {
+    visibility: hidden;
+}
+
+.invisible {
+    background-color: #272727;
+}
+
+.visible > {
+    visibility: collapse;
+}
+
+.visible {
+    background-color: #3d2f2f;
+}
