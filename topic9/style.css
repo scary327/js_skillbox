@@ -1,0 +1,42 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 80%;
+    border: 1px solid #333333;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.table__div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.flex__tr {
+    text-align: center;
+}
+
+.filter__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+tr:not(:last-child) {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #333333;
+}

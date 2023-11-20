@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="content__form">
+    </div>
+    <h2>Список Студентов</h2>
+    <div>
+        <form class="filter__form" action="">
+            <label for="name__filter">Сортировка по имени</label>
+            <input type="text" id="name__filter">
+            <label for="surname__filter">Сортировка по фамилии</label>
+            <input type="text" id="surname__filter">
+            <label for="patronymic__filter">Сортировка по отчеству</label>
+            <input type="text" id="patronymic__filter">
+            <label for="faculty__filter">Сортировка по факультету</label>
+            <input type="text" id="faculty__filter">
+            <label for="start-year__filter">Сортировка по начальному году</label>
+            <input type="number" id="start-year__filter" min="2000">
+            <label for="end-year__filter">Сортировка по конечному году</label>
+            <input type="number" id="end-year__filter" min="2000">
+            <button id="btn__filter">Применить</button>
+        </form>
+    </div>
+    <div class="table__div">
+        <table class="container" id="studentsTable">
+            <thead>
+                <tr>
+                    <th id="fio">Ф. И. О.</th>
+                    <th id="faculty">Факультет</th>
+                    <th id="dob">Дата рождения и возраст</th>
+                    <th id="course">Годы обучения и номер курса</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+<script defer src="./main.js"></script>
+</html>
