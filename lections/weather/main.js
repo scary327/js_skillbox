@@ -99,7 +99,7 @@ const getContent = () => {
                 </div>
 
                 <div class="weather-box">
-                    <div class="temp">${temp} &deg;C</div>
+                    <div class="temp">${temp - 273} &deg;C</div>
                     <div class="weather">${weather}</div>
                 </div>`
 }
